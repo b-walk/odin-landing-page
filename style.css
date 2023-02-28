@@ -1,8 +1,24 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0px;
 }
 
 .header-container {
+    background-color: #1F2937;
     display: flex;
+}
+
+.main-container {
+    background-color: #1F2937;
+}
+
+.submain-container {}
+
+.quote-container {}
+
+.calltoaction-container {}
+
+.footer-container {
+    background-color:#1F2937;
 }
