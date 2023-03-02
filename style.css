@@ -13,6 +13,19 @@ body {
     padding: 10px 80px;
 }
 
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+}
+
+.header ul {
+    display: flex;
+    list-style-type: none;
+    gap: 14px;
+}
+
 .footer {
     background-color: #1F2937;
 }
