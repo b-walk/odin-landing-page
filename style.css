@@ -56,6 +56,25 @@ body {
     gap: 14px;
 }
 
+.picture-lineup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+}
+
+.picture {
+    display: flex;
+    flex-direction: column;
+}
+
+.picture img {
+    border: solid 4px #3882F6;
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
 .footer {
     background-color: #1F2937;
 }
