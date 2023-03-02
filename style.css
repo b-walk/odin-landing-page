@@ -1,0 +1,18 @@
+* {
+    margin: 0px;
+    color: #F9FAF8;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    background-color: #1F2937;
+    padding: 10px 80px;
+}
+
+.footer {
+    background-color: #1F2937;
+}
