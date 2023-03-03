@@ -80,6 +80,21 @@ body {
     text-align: center;
 }
 
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-style: italic;
+    padding: 50px 160px 5px 160px;
+    margin-top: 15px;
+}
+
+.quotee {
+    background-color: #E5E7EB;
+    color:#1F2937;
+    padding-left: 540px;
+    padding-bottom: 5px;
+}
+
 .footer {
     background-color: #1F2937;
 }
