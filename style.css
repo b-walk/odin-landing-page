@@ -7,6 +7,7 @@
 body {
     display: flex;
     flex-direction: column;
+    min-height: 100%;
 }
 
 .main {
@@ -47,7 +48,7 @@ body {
 
 .hero img {
     width: 270px;
-    height: 230px;
+    height: 150px;
 }
 
 .header ul {
@@ -95,6 +96,32 @@ body {
     padding-bottom: 5px;
 }
 
+.call-to-action-modal {
+    display: flex;
+    background-color: #3882F6;
+    margin: 70px 100px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 5px;
+    border-radius: 5px;
+    gap: 10px;
+}
+
+.call-to-action-modal button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: solid 3px #F9FAF8;
+    border-radius: 6px;
+}
+
 .footer {
     background-color: #1F2937;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+html {
+    height: 100%;
 }
